@@ -6,6 +6,8 @@ public class Parrot extends Animal{
     }
 
     public void sing(){
+
         System.out.println(name+" is singing");
+
     }
 }
