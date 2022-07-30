@@ -34,9 +34,12 @@ public class AmazonInc {
         for (Tester tester4: scrumTeam.testers) {
             System.out.println(tester4.name+" : "+tester4.salary);
 
+        }
 
+        System.out.println("--------------------------------------------");
 
-
+        for(Developer developer1: scrumTeam.developers){
+            System.out.println(developer1.name+" : "+ developer1.salary);
         }
 
 
